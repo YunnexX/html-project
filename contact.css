@@ -1,0 +1,11 @@
+body{
+    background-color: bisque; /*to have a background color*/
+    font-weight: 700; /*bigger weight*/
+    font-size: 18px; /*bigger size*/
+    font-family: Arial, sans-serif; /*this indicates of my font style*/
+    color: #603F26; /*this indicates the text color*/
+}
+h1{
+    text-align: center; /*centers the text*/
+    border-bottom-style: dotted /*little design for my h1*/
+}

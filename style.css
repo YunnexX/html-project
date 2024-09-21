@@ -1,0 +1,29 @@
+body{
+    background-color: bisque; /*to have a background color*/
+    font-family: Arial, serif; /*this indicates of my font style*/
+    font-weight: 700; /*bigger weight*/
+    font-size: 16px; /*font size*/
+    color: #603F26; /*this indicates the text color*/
+}
+h1{
+    text-align: center; /*centers the text*/
+    border-bottom-style: dotted; /*little design for my h1*/
+}
+#h2{
+    text-align: left; 
+}
+h2{
+    text-align: center;  
+}
+#h3{
+    text-align: center;
+}
+#p1, #p2{
+    text-align: center;
+}
+h4{
+    text-align: right;
+}
+a{
+    text-decoration: none; /*for the underline to disappear*/
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: bisque; /*to have a background color*/
+    font-weight: 700; /*bigger weight*/
+    font-family: Arial, sans-serif; /*this indicates of my font style*/
+    text-align: center; /*centers the text*/
+    color: #603F26; /*this indicates the text color*/
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+img{
+    text-align: center;
+}
+
+#centered-image{ /*this is for the images*/
+    display: block;
+    margin: 0
+}
+h2{
+    text-align: left;
+    font-weight: 900;
+}
+#p7{
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+}
