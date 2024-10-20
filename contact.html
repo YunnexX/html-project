@@ -3,29 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"> <!-- Favicon -->
-    <link rel="stylesheet" href="contact.css">
-    <title>Contact Me</title>
+    <title>Social Account</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #2c2c2c;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .location {
+            color: #a3ff1a;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            color: #bfbfbf;
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .card button {
+            background-color: #3a3a3a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px 0;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 15px;
+        }
+
+        .card button:hover {
+            background-color: #5a5a5a;
+        }
+        .card button:active {
+            background-color: #777;}
+    </style>
 </head>
 <body>
-    <h1>Contacts</h1>
-    <h2>Get in touch</h2>
-    <h4>I'd love to hear from you! <br>
-        Whether you have questions, comments, or just want to connect, you can reach me through the following:
-    </h4>
-            <ul>
-                <li><a href="https://www.instagram.com/young_woong7/">Instagram</a></li>
-                    <img src="image/instagram profile.png" alt="Instagram">
-                <li><a href="https://www.facebook.com/youngwoong.yun.1?mibextid=LQQJ4d2">Facebook</a></li>
-                    <img src="image/facebook profile.png" alt="Facebook">
-                <li>Email: yunyoungwoong06@gmail.com</li>
-                    <img src="image/email.png" alt="Email">
-            </ul>
+    <div class="card">
+        <img src="image/pp.jpg" alt="Profile Picture" class="profile-img">
+        <h2> </h2>
+        <p class="location">Cebu, Cebu City</p>
+        <p class="bio">"Programmerinismist"</p>
+        <div class="buttons">
+            
+            <button onclick="document.location='https://github.com/YunnexX'">GitHub</button>
+            <button onclick="document.location='https://discord.com/channels/@me/1284132095924371496'">Discord</button>
+            <button onclick="document.location='https://x.com/YoungwoongYun2'">X</button>
+            <button onclick="document.location='https://www.facebook.com/youngwoong.yun.1'">Facebook</button>
+            <button onclick="document.location='https://www.instagram.com/young_woong7/'">Instagram</button>
 
-        <hr>
-    <h4>Thank you for visiting my website! <br>
-        I look forward to hearing from you and connecting with like-minded individuals. </h4>
-        <br>
-                    <a href="index.html">Go back to Main Page</a>
+        </div>
+
+        <a href="index.html">Go back to Main Page</a>
 </body>
 </html>

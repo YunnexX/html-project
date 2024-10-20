@@ -4,6 +4,7 @@ body{
     font-weight: 700; /*bigger weight*/
     font-size: 18px; /*bigger size*/
     color: #603F26; /*this indicates the text color*/
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -14,4 +15,9 @@ h1{
 }
 h4{
     text-align: center;
+}
+img {
+    width: 150px; /* Change the width */
+    height: 150px; /* Change the height */
+    border-radius: 95%;
 }
