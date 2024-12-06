@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #4d148c;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4d148c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: rgb(153, 239, 245);
+    border: 1px solid #6abcff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.about {
+    padding: 50px 20px;
+    background: #93d5f0f8;
+    text-align: center;
+}
+
+.contact {
+    padding: 50px 20px;
+    background: #e6e1e1;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.track-shipment {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgb(219, 219, 219);
+}
+footer {
+    text-align: right;
+}
+.service-details {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e4cbff;
+}
+
+.service-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.service-details p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.service-details ul, .service-details ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.service-details .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4d148c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.social-media {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-media h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #4d148c;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ff661b;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4d148c; /* Purple background */
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and text */
+}
+
+.logo-image {
+    width: 50px; /* Adjust logo size */
+    height: auto;
+}
+
+.site-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+

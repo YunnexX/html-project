@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeliveryPro - Fast and Reliable Delivery</title>
+    <link rel="icon" href="images/mylogo.webp" type="image/webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="header">
+                <div class="logo-container">
+                    <img src="images/mylogo.webp" alt="YunneXx DeliveryPro Logo" class="logo-image">
+                    <h1 class="site-name">YunneXx DeliveryPro</h1>
+                </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to YunneXx DeliveryPro</h1>
+            <p>Your one-stop solution for fast, secure, and reliable deliveries worldwide.</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-card">
+                <h3>Express Delivery</h3>
+                <p>Fast and secure package delivery to your doorstep within 24 hours.</p>
+                <a href="service.html" class="btn">View More</a>
+            </div>
+            <div class="service-card">
+                <h3>Freight Shipping</h3>
+                <p>Customized solutions for bulk shipments with tracking and support.</p>
+                <a href="service.html" class="btn">View More</a>
+            </div>
+            <div class="service-card">
+                <h3>Package Tracking</h3>
+                <p>Stay updated on your shipment status with our real-time tracking tool.</p>
+                <a href="service.html" class="btn">View More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            At YunneXx DeliveryPro, we have been committed to providing top-tier logistics solutions for over 15 years. 
+            Our mission is to make global delivery seamless and reliable for everyone.
+        </p>
+        <p>
+            With cutting-edge technology and a dedicated team, we ensure that your packages reach their destination 
+            on time and in perfect condition.
+        </p>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? We'd love to hear from you!</p>
+        <form class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="social-media">
+            <h3>Follow Us</h3>
+                <a href="https://github.com/YunnexX/html-project" target="_blank" class="social-icon">
+                    <i class="fab fa-Github">Github</i>
+                </a>
+                <a href="https://www.facebook.com/youngwoong.yun.1" target="_blank" class="social-icon">
+                    <i class="fab fa-Facebook">Facebook</i>
+                </a>
+                <a href="https://www.instagram.com/young_woong7/" target="_blank" class="social-icon">
+                    <i class="fab fa-Instagram">Instagram</i>
+                </a>
+                <a href="https://x.com/YoungwoongYun2" target="_blank" class="social-icon">
+                    <i class="fab fa-Twitter">X</i>
+                </a>
+        </div>
+    </section>
+
+
+    <section id="track-shipment" class="track-shipment">
+        <h2>Track Your Shipment</h2>
+        <p>Enter your tracking number below to get the latest update on your package.</p>
+        <input type="text" id="trackingInput" placeholder="Enter tracking number">
+        <button id="trackButton">Track</button>
+        <div id="trackingResult"></div>
+    </section>
+
+
+    <footer>
+        <p>© 2024 YunneXx Delivery Pro All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
